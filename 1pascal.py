@@ -22,7 +22,33 @@ def pascal(row):
     
     print(array_2d)
             
-            
+       
+# [[0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]
+# [0, 0, 0, 1, 0, 0, 0]
+# left 0
+# right 0
+# left 0
+# right 1
+# left 0
+# right 0
+# left 1
+# right 0
+# left 0
+# right 0
+# [0, 0, 1, 0, 1, 0, 0]
+# left 0
+# right 1
+# left 0
+# right 0
+# left 1
+# right 1
+# left 0
+# right 0
+# left 1
+# right 0
+# [[0, 0, 0, 1, 0, 0, 0], [0, 0, 1, 0, 1, 0, 0], [0, 1, 0, 2, 0, 1, 0]]
+
+# === Code Execution Successful ===     
         
 
             
