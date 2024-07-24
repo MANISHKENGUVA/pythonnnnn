@@ -1,0 +1,39 @@
+def ss(lis):
+    print(lis)
+    d=0
+    d_value=[]
+    for i in range(len(lis)-1,0,-1):
+        if (lis[i]>lis[i-1]):
+            d=i-1
+            
+            
+    d_value=lis[d]
+    print(d_value)
+    print(d)
+    
+    for i in range(len(lis)-1,d,-1):
+        if (lis[i]>d_value):
+            temp=lis[i]
+            lis[i]=d_value
+            d_value=temp
+            lis[d]=temp
+            break
+        
+        
+        
+    print(lis)
+    s=sorted(lis[d+1:])
+    ss=lis[0:d+1]
+    print(ss+s)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ss([1,3,2])
